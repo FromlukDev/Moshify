@@ -111,10 +111,7 @@ a {
 
 .badge--small {
   font-size: 1.6rem;
-<<<<<<< HEAD
   padding: 0.5rem 1.5rem;
-=======
->>>>>>> 2b6323a01a56bf123bf18dd0e61f0f87bde8b0e9
 }
 
 @media screen and (min-width: 1024px) {
@@ -190,7 +187,6 @@ a {
   padding: 2rem 3rem;
   text-transform: uppercase;
   white-space: nowrap;
-<<<<<<< HEAD
 }
 
 .btn--primary {
@@ -274,7 +270,6 @@ input {
 }
 
 @media screen and (min-width: 1024px) {
-=======
 }
 
 .btn--primary {
@@ -358,7 +353,6 @@ input {
 }
 
 @media screen and (min-width: 1024px) {
->>>>>>> 2b6323a01a56bf123bf18dd0e61f0f87bde8b0e9
   .input {
     font-size: 1.5rem;
   }
@@ -382,18 +376,14 @@ input {
   color: #fff;
 }
 
-<<<<<<< HEAD
 .card--secondary .badge--secondary {
   background-color: #02cdf1;
 }
 
-=======
->>>>>>> 2b6323a01a56bf123bf18dd0e61f0f87bde8b0e9
 .card--secondary .card__header {
   background-color: var(--color-secondary);
   color: #fff;
 }
-<<<<<<< HEAD
 
 /* Plans */
 
@@ -456,5 +446,3 @@ input {
     font-size: 1.7rem;
   }
 }
-=======
->>>>>>> 2b6323a01a56bf123bf18dd0e61f0f87bde8b0e9
