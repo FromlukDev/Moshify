@@ -111,7 +111,10 @@ a {
 
 .badge--small {
   font-size: 1.6rem;
+<<<<<<< HEAD
   padding: 0.5rem 1.5rem;
+=======
+>>>>>>> 2b6323a01a56bf123bf18dd0e61f0f87bde8b0e9
 }
 
 @media screen and (min-width: 1024px) {
@@ -187,6 +190,7 @@ a {
   padding: 2rem 3rem;
   text-transform: uppercase;
   white-space: nowrap;
+<<<<<<< HEAD
 }
 
 .btn--primary {
@@ -270,6 +274,91 @@ input {
 }
 
 @media screen and (min-width: 1024px) {
+=======
+}
+
+.btn--primary {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.btn--primary:hover {
+  background-color: #3a8ffd;
+}
+
+.btn--secondary {
+  background-color: var(--color-secondary);
+  color: #fff;
+}
+
+.btn--secondary:hover {
+  background-color: #00c8eb;
+}
+
+.btn--accent {
+  background-color: var(--color-accent);
+  color: #fff;
+}
+
+.btn--accent:hover {
+  background-color: #ec3000;
+}
+
+.btn--block {
+  width: 100%;
+  display: inline-block;
+}
+
+.btn--outline {
+  background-color: #fff;
+  color: var(--color-headings);
+  border: 2px solid var(--color-headings);
+}
+
+.btn--outline:hover {
+  background-color: var(--color-headings);
+  color: #fff;
+}
+
+@media screen and (min-width: 1024px) {
+  .btn {
+    font-size: 1.5rem;
+  }
+}
+
+/* Inputs */
+
+input {
+  border-radius: var(--border-radius);
+  border: 1px solid var(--color-border);
+  color: var(--color-headings);
+  font-size: 2rem;
+  outline: 0;
+  padding: 1.5rem;
+}
+
+::placeholder {
+  color: #cdcbd7;
+}
+
+.input-group {
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  display: flex;
+}
+
+.input-group .input {
+  border: 0;
+  flex-grow: 1;
+  padding: 1.5rem 1rem;
+}
+
+.input-group .btn {
+  margin: 4px;
+}
+
+@media screen and (min-width: 1024px) {
+>>>>>>> 2b6323a01a56bf123bf18dd0e61f0f87bde8b0e9
   .input {
     font-size: 1.5rem;
   }
@@ -293,14 +382,18 @@ input {
   color: #fff;
 }
 
+<<<<<<< HEAD
 .card--secondary .badge--secondary {
   background-color: #02cdf1;
 }
 
+=======
+>>>>>>> 2b6323a01a56bf123bf18dd0e61f0f87bde8b0e9
 .card--secondary .card__header {
   background-color: var(--color-secondary);
   color: #fff;
 }
+<<<<<<< HEAD
 
 /* Plans */
 
@@ -363,3 +456,5 @@ input {
     font-size: 1.7rem;
   }
 }
+=======
+>>>>>>> 2b6323a01a56bf123bf18dd0e61f0f87bde8b0e9
