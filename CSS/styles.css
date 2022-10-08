@@ -7,6 +7,7 @@
   --color_body-darker: #5c5577;
   --color-border: #ccc;
   --border-radius: 30px;
+  --padding-vertical: 5rem;
 }
 
 *,
@@ -153,8 +154,12 @@ a {
 }
 
 .list--tick .list__item {
-  padding-left: 0.5rem;
   margin-bottom: 1rem;
+}
+
+.entry__plan .list--tick .list__item {
+  padding-left: 0;
+  margin-bottom: 2.5rem;
 }
 
 @media screen and (min-width: 1024px) {
@@ -206,10 +211,10 @@ a {
   cursor: pointer;
   font-size: 1.8rem;
   font-weight: 600;
-  text-align: center;
   margin: 1rem 0;
   outline: 0;
-  padding: 2rem 3rem;
+  padding: 2rem 0;
+  text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
 }
@@ -387,6 +392,7 @@ input {
   border: 0;
   flex-grow: 1;
   padding: 1.5rem 2rem;
+  width: 0;
 }
 
 .input-group .btn {
@@ -403,13 +409,19 @@ input {
 
 .card {
   border-radius: 7px;
-  box-shadow: 0 0 20px 10x #f3f3f3;
+  box-shadow: 0 0 20px 10px #f3f3f3;
   overflow: hidden;
 }
+/* The card entry is a solution for the card size in the entry plan
+because it usually has less options than the other plans,
+so to keep the same size(height) for the cards TODO: Fix the margin of the button*/
+/* .card .entry__plan {
+  padding: 4rem;
+} */
 
 .card__header,
 .card__body {
-  padding: 2rem 3rem;
+  padding: 2rem 7%;
 }
 
 .card--primary .card__header {
@@ -422,6 +434,10 @@ input {
 }
 .card--secondary .badge--secondary {
   background-color: #02cdf1;
+}
+
+.card .card--secondary .entry__plan {
+  min-height: 530.15px;
 }
 
 .card--secondary .card__header {
@@ -706,7 +722,6 @@ input {
 /* Blocks */
 
 .block {
-  --padding-vertical: 6rem;
   padding: var(--padding-vertical) 2rem;
 }
 
@@ -840,8 +855,9 @@ input {
 }
 
 .block-domain__prices {
+  color: var(--color-headings);
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 6rem);
   font-size: 2rem;
   font-weight: 600;
