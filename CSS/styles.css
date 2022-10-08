@@ -213,7 +213,7 @@ a {
   font-weight: 600;
   margin: 1rem 0;
   outline: 0;
-  padding: 2rem 0;
+  padding: 2rem 4vw;
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
@@ -261,6 +261,7 @@ a {
   background-color: #fff;
   color: var(--color-headings);
   border: 2px solid var(--color-headings);
+  padding: 2rem 0;
 }
 
 .btn--outline:hover {
