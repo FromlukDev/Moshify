@@ -13,7 +13,7 @@ Here I've learned:
     
     Create layouts with Flex and Grid layout systems
     
-    Animations
+    Transformations, Transitions and Animations
     
     Typography
     
@@ -23,14 +23,12 @@ Here I've learned:
     
     Write clean, maintainable, object-oriented CSS3
     
-   
     Write valid, semantic HTML5 code
-    
-    Host your code on GitHub
     
     Set up continuous deployment
     
     Measure website's performance
     
+    And much more...
     
 
